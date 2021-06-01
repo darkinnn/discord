@@ -28,9 +28,9 @@ html {
     --dark-clr: #23272A;
     --brand-clr: #7289DA;
     --off-white-clr: #e9e0e0; /*#f6f6f6*/
-    --general-font-size: 2rem;
-    --primary-title-font-size: 4.8rem;
-    --secondary-title-font-size: 4rem;
+    --general-font-size: 1.7rem;
+    --primary-title-font-size: 3rem;
+    --secondary-title-font-size: 2.5rem;
     --main-font-family-light: 'Whitney Light', sans-serif;
     --main-font-family-medium: 'Whitney Medium', sans-serif;
     --main-font-family-bold: 'Whitney Bold', sans-serif;
@@ -297,6 +297,8 @@ img {
     background-color: #8ea1e1;
 }
 
+
+
 /* Footer */
 
 .main-footer {
@@ -365,3 +367,25 @@ img {
     margin-top: 1.2rem;
     color: inherit;
 }
+
+.divider {
+    grid-column: 1/-1;
+    height: 1px;
+    background-color: var(--brand-clr);
+    margin-bottom: 3.2rem;
+}
+
+.main-footer .remove-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-footer .btn-brand {
+    line-height: 1.8;
+}
+
+/**** Mobile first end ****/
+
+
+@media screen and (min-width: 768px)
